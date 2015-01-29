@@ -10,12 +10,13 @@ public class Factorial {
 
 	n = in.nextInt();
 
-	if (n > 0)
-		System.out.println("Number non-negative");
-	else{
+	if (n < 0)
+		System.out.println("Number is negative");
+	else {
 		for(c = 1; c <= n; c++)
 			fact=fact*c;
 	System.out.println("Factorial of "+n+" is ="+fact);
 	}
+	System.out.println("Changes after Pushing to remote!");
 	}
 }
